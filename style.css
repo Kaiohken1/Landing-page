@@ -1,5 +1,7 @@
 body {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -30,21 +32,29 @@ a:link{
 
 .container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 100px;
+    margin-top: 80px;
     background-color: blue;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 390px;
+    gap: 8px;    
 }
 
 #this {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAf8;
-    flex-wrap: wrap;
 }
 
-.placeholder {
-    display: flex;
-    justify-content: flex-end;
+
+.info {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 10px 40px;
+    color: #F9FAf8;
 }
