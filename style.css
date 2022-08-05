@@ -92,3 +92,42 @@ button {
     max-width: 170px;
     text-align: center;
 }
+
+.bottom {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 200px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 130px;
+}
+
+.author {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bolder;
+    font-size: 26px;
+    justify-content: flex-end;
+    margin: 0 130px;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    background-color: #F9FAf8
+}
+
+.bar {
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
