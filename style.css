@@ -115,7 +115,7 @@ button {
 .bottom {
     display: flex;
     background-color: #e5e7eb;
-    padding: 200px;
+    padding: 180px;
     flex-direction: column;
 }
 
