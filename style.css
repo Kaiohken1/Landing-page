@@ -126,8 +126,29 @@ button {
 
 .bar {
     background-color: #3882F6;
-    padding: 40px;
+    padding: 40px 170px;
     border-radius: 15px;
     display: flex;
+    gap: 350px;
+}
+
+.subtitle {
+    color: #F9FAf8;
+    font-weight: bold;
+}
+
+.content {
+    color: #F9FAf8;
+}
+
+.sub-text {
+    display: flex;
     flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    color: #F9FAf8;
 }
